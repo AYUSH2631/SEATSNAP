@@ -1,60 +1,36 @@
 # Java
+target/
 *.class
 
-# Log files
+# Logs
 *.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files
-*.jar
-*.war
-*.ear
-
-# Eclipse
-*.classpath
-*.project
-*.settings/
 
 # IntelliJ
 .idea/
 *.iml
+*.ipr
 *.iws
-out/
 
-# VSCode
+# VS Code
 .vscode/
 
-# Build directories
-target/
-bin/
-
-# OS
+# OS generated
 .DS_Store
 Thumbs.db
 
-# Docker
+# Maven
+.mvn/
+.settings/
+
+# Node (for frontend later)
+node_modules/
+
+# Environment
+.env
 *.env
 
-# Node
-node_modules/
-dist/
+# Docker
+*.pid
 
-# Kubernetes
-*.yaml
-
-# Ignore environment variables
-.env
-
-# Ignore IDE specific files
-*.swp
-
-# Ignore generated files
-generated/
-
-# Ignore test reports
-test-output/
+# Other
+!.mvn/wrapper/maven-wrapper.jar
