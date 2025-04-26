@@ -1,0 +1,60 @@
+# Java
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Eclipse
+*.classpath
+*.project
+*.settings/
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+out/
+
+# VSCode
+.vscode/
+
+# Build directories
+target/
+bin/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.env
+
+# Node
+node_modules/
+dist/
+
+# Kubernetes
+*.yaml
+
+# Ignore environment variables
+.env
+
+# Ignore IDE specific files
+*.swp
+
+# Ignore generated files
+generated/
+
+# Ignore test reports
+test-output/
