@@ -9,6 +9,6 @@ public class usercontroller {
 
     @GetMapping("/status")
     public String status(){
-        return "User service is running" ;
+        return "User service is running fine" ;
     }
 }
